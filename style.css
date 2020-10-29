@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+/* TABLE OF CONTENTS */
+
+/* =====================
+1. Global Styles
+2. Reused css components
+3. Body
+4. 
+5. 
+6. 
+7. 
+====================== */
+
+/* =======================
+1. GLOBAL STYLES
+=========================*/
+
+:root {
+  --clr-primary: #dbbd6a;
+  --clr-primary-light: #b5bb98;
+  --clr-secondary: #436346;
+  --clr-tertiatry: #532f52;
+  --clr-red: #c44536;
+  --clr-grey: #4e4545;
+  --clr-grey-light: #eee;
+  --ff-primary: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: black;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* =======================
+2. RE-USED CSS COMPONENTS
+=========================*/
+
+.btn {
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-spacing: 0.2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  background-color: #f8f5223a;
+}
+
+/* =======================
+2. BODY
+=========================*/
+
+body {
+  background-image: url(./img/pexels-valeriia-miller-3569264.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.outer-container {
+  width: 55rem;
+  height: 22rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  border-radius: 3rem;
+  /* background-color: pink; */
+}
+
+.quote:before {
+  content: '\201C';
+  font-size: 400%;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+}
+.quote {
+  font-size: 2rem;
+  margin: 2rem 2rem 1rem 4.5rem;
+}
+
+.author {
+  font-size: 1.5rem;
+  margin-left: 67%;
+  margin-bottom: 1.5rem;
+}
+
+.generator {
+  margin-left: 35%;
+}
