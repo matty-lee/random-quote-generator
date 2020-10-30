@@ -41,6 +41,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* =======================
 2. RE-USED CSS COMPONENTS
 =========================*/
@@ -73,19 +74,19 @@ body {
   left: 50%;
   transform: translate(-50%, -30%);
   border-radius: 3rem;
-  /* background-color: pink; */
+  background-color: rgba(255, 255, 255, 0.336);
 }
 
 .quote:before {
   content: '\201C';
   font-size: 400%;
   position: absolute;
-  top: 0.5rem;
+  top: 2rem;
   left: 1rem;
 }
 .quote {
   font-size: 2rem;
-  margin: 2rem 2rem 1rem 4.5rem;
+  margin: 6rem 2rem 1rem 4.5rem;
 }
 
 .author {
@@ -95,5 +96,7 @@ body {
 }
 
 .generator {
+  position: absolute;
+  top: 18rem;
   margin-left: 35%;
 }
